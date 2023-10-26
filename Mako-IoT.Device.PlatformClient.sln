@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC16465B-D3DB-4371-8D24-56163DE0F288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A1D0E3C5-D9E6-4EC8-BA95-DFC69E5EA941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0952EF61-C111-4774-BA5D-26AF03F70578}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		Directory.Build.props = Directory.Build.props
+		LICENSE.md = LICENSE.md
+		MakoIoT.Device.PlatformClient.nuspec = MakoIoT.Device.PlatformClient.nuspec
+		nuget.config = nuget.config
+		README.md = README.md
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "MakoIoT.Device.PlatformClient", "src\MakoIoT.Device.PlatformClient\MakoIoT.Device.PlatformClient.nfproj", "{59A12570-2C6F-4C3C-B86C-E21C193B51BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoftwareTests", "SoftwareTests", "{8238843A-467B-4767-9BCB-F579917E123D}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "MakoIoT.Device.PlatformClient.Test", "Tests\SoftwareTests\MakoIoT.Device.PlatformClient.Test\MakoIoT.Device.PlatformClient.Test.nfproj", "{E1300642-DA30-4533-8A9A-EFD6DBCF9452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A12570-2C6F-4C3C-B86C-E21C193B51BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A12570-2C6F-4C3C-B86C-E21C193B51BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A12570-2C6F-4C3C-B86C-E21C193B51BE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{59A12570-2C6F-4C3C-B86C-E21C193B51BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A12570-2C6F-4C3C-B86C-E21C193B51BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A12570-2C6F-4C3C-B86C-E21C193B51BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E1300642-DA30-4533-8A9A-EFD6DBCF9452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1300642-DA30-4533-8A9A-EFD6DBCF9452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1300642-DA30-4533-8A9A-EFD6DBCF9452}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E1300642-DA30-4533-8A9A-EFD6DBCF9452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1300642-DA30-4533-8A9A-EFD6DBCF9452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1300642-DA30-4533-8A9A-EFD6DBCF9452}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59A12570-2C6F-4C3C-B86C-E21C193B51BE} = {BC16465B-D3DB-4371-8D24-56163DE0F288}
+		{8238843A-467B-4767-9BCB-F579917E123D} = {A1D0E3C5-D9E6-4EC8-BA95-DFC69E5EA941}
+		{E1300642-DA30-4533-8A9A-EFD6DBCF9452} = {8238843A-467B-4767-9BCB-F579917E123D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E967760-12B5-4261-9935-A04AD73A6476}
+	EndGlobalSection
+EndGlobal
