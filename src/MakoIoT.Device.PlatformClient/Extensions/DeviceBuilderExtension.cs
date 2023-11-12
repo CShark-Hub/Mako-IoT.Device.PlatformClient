@@ -4,7 +4,7 @@ using MakoIoT.Device.PlatformClient.Services;
 using MakoIoT.Device.Services.FileStorage.Interface;
 using MakoIoT.Device.Services.FileStorage;
 using MakoIoT.Device.Services.Interface;
-using nanoFramework.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MakoIoT.Device.PlatformClient.Extensions
 {
