@@ -5,7 +5,6 @@ using System.Net.Http;
 using MakoIoT.Device.Platform.Interface.Certificates;
 using MakoIoT.Device.Platform.Interface.Configuration;
 using MakoIoT.Device.Services.Interface;
-using Microsoft.Extensions.Logging;
 
 namespace MakoIoT.Device.PlatformClient.ApiClients
 {

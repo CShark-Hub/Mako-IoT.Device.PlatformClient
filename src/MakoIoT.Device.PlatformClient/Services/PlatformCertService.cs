@@ -1,5 +1,4 @@
-﻿
-using MakoIoT.Device.Platform.Interface;
+﻿using MakoIoT.Device.Platform.Interface;
 using MakoIoT.Device.Platform.Interface.Certificates;
 using MakoIoT.Device.Services.FileStorage.Interface;
 
