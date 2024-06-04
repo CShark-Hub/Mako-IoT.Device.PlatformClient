@@ -35,7 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MakoIoT.Device.Services.FileStorage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\packages\MakoIoT.Device.Services.FileStorage.1.0.57.49182\lib\MakoIoT.Device.Services.FileStorage.dll</HintPath>
+      <HintPath>..\..\..\packages\MakoIoT.Device.Services.FileStorage.1.0.58.24818\lib\MakoIoT.Device.Services.FileStorage.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MakoIoT.Device.Services.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
