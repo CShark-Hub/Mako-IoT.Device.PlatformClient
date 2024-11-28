@@ -17,21 +17,22 @@
     <description>MAKO-IoT PLatform device client library</description>
     <tags>nanoFramework C# csharp netmf netnf mako-iot platform device</tags>
     <dependencies>
-      <dependency id="MakoIoT.Device.Platform.Interface" version="1.0.1.28390" />
-      <dependency id="MakoIoT.Device.Services.FileStorage" version="1.0.30.57507" />
-      <dependency id="MakoIoT.Device.Services.Interface" version="1.0.36.21434" />
-      <dependency id="nanoFramework.CoreLibrary" version="1.14.2" />
-      <dependency id="nanoFramework.DependencyInjection" version="1.0.35" />
-      <dependency id="nanoFramework.Json" version="2.2.101" />
-      <dependency id="nanoFramework.Logging" version="1.1.63" />
-      <dependency id="nanoFramework.Runtime.Events" version="1.11.6" />
-      <dependency id="nanoFramework.System.Collections" version="1.5.18" />
-      <dependency id="nanoFramework.System.IO.FileSystem" version="1.1.23" />
-      <dependency id="nanoFramework.System.IO.Streams" version="1.1.38" />
-      <dependency id="nanoFramework.System.Net" version="1.10.62" />
-      <dependency id="nanoFramework.System.Net.Http" version="1.5.104" />
-      <dependency id="nanoFramework.System.Text" version="1.2.37" />
-      <dependency id="nanoFramework.System.Threading" version="1.1.19" />
+      <dependency id="MakoIoT.Device.Platform.Interface" version="1.0.12.12799" />
+      <dependency id="MakoIoT.Device.Services.FileStorage" version="1.0.79.51462" />
+      <dependency id="MakoIoT.Device.Services.Interface" version="1.0.48.22567" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
+      <dependency id="nanoFramework.DependencyInjection" version="1.1.11" />
+      <dependency id="nanoFramework.Json" version="2.2.152" />
+      <dependency id="nanoFramework.Logging" version="1.1.113" />
+      <dependency id="nanoFramework.Runtime.Events" version="1.11.18" />
+      <dependency id="nanoFramework.System.Collections" version="1.5.45" />
+      <dependency id="nanoFramework.System.IO.FileSystem" version="1.1.54" />
+      <dependency id="nanoFramework.System.IO.Streams" version="1.1.59" />
+      <dependency id="nanoFramework.System.Net" version="1.11.1" />
+      <dependency id="nanoFramework.System.Net.Http" version="1.5.150" />
+      <dependency id="nanoFramework.System.Runtime" version="1.0.27" />
+      <dependency id="nanoFramework.System.Text" version="1.2.54" />
+      <dependency id="nanoFramework.System.Threading" version="1.1.32" />
     </dependencies>
   </metadata>
   <files>

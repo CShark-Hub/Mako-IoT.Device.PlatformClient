@@ -50,6 +50,11 @@ namespace MakoIoT.Device.PlatformClient.Services
             throw new ConfigurationException("Can't load configuration nor default");
         }
 
+        public bool TryGetConfigSection(string sectionName, Type objectType, out object section)
+        {
+            throw new NotImplementedException();
+        }
+
         public void UpdateConfigSection(string sectionName, object section)
         {
             string sectionStr = JsonConvert.SerializeObject(section);
