@@ -30,7 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MakoIoT.Device.Platform.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\packages\MakoIoT.Device.Platform.Interface.1.0.18.17927\lib\MakoIoT.Device.Platform.Interface.dll</HintPath>
+      <HintPath>..\..\packages\MakoIoT.Device.Platform.Interface.1.0.19.38402\lib\MakoIoT.Device.Platform.Interface.dll</HintPath>
     </Reference>
     <Reference Include="MakoIoT.Device.Services.FileStorage, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\packages\MakoIoT.Device.Services.FileStorage.1.1.2.5964\lib\MakoIoT.Device.Services.FileStorage.dll</HintPath>
