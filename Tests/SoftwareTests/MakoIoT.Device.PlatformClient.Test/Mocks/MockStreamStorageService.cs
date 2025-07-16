@@ -35,6 +35,11 @@ namespace MakoIoT.Device.PlatformClient.Test.Mocks
             throw new System.NotImplementedException();
         }
 
+        public long GetFileSize(string fileName)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public StreamWriter WriteToFileStream(string fileName)
         {
             throw new System.NotImplementedException();
