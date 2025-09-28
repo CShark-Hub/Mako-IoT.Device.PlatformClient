@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.props" Condition="Exists('..\..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.props')" />
+  <Import Project="..\..\packages\Nerdbank.GitVersioning.3.8.118\build\Nerdbank.GitVersioning.props" Condition="Exists('..\..\packages\Nerdbank.GitVersioning.3.8.118\build\Nerdbank.GitVersioning.props')" />
   <PropertyGroup Label="Globals">
     <NanoFrameworkProjectSystemPath>$(MSBuildExtensionsPath)\nanoFramework\v1.0\</NanoFrameworkProjectSystemPath>
   </PropertyGroup>
@@ -30,13 +30,13 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MakoIoT.Device.Platform.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\packages\MakoIoT.Device.Platform.Interface.1.0.27.8561\lib\MakoIoT.Device.Platform.Interface.dll</HintPath>
+      <HintPath>..\..\packages\MakoIoT.Device.Platform.Interface.1.0.28.25111\lib\MakoIoT.Device.Platform.Interface.dll</HintPath>
     </Reference>
     <Reference Include="MakoIoT.Device.Services.FileStorage, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\packages\MakoIoT.Device.Services.FileStorage.1.1.17.47275\lib\MakoIoT.Device.Services.FileStorage.dll</HintPath>
+      <HintPath>..\..\packages\MakoIoT.Device.Services.FileStorage.1.1.21.60931\lib\MakoIoT.Device.Services.FileStorage.dll</HintPath>
     </Reference>
     <Reference Include="MakoIoT.Device.Services.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\packages\MakoIoT.Device.Services.Interface.1.0.55.11594\lib\MakoIoT.Device.Services.Interface.dll</HintPath>
+      <HintPath>..\..\packages\MakoIoT.Device.Services.Interface.1.0.57.48509\lib\MakoIoT.Device.Services.Interface.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib, Version=1.17.11.0, Culture=neutral, PublicKeyToken=c07d481e9758c731">
       <HintPath>..\..\packages\nanoFramework.CoreLibrary.1.17.11\lib\mscorlib.dll</HintPath>
@@ -91,8 +91,8 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.props'))" />
-    <Error Condition="!Exists('..\..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Nerdbank.GitVersioning.3.8.118\build\Nerdbank.GitVersioning.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Nerdbank.GitVersioning.3.8.118\build\Nerdbank.GitVersioning.props'))" />
+    <Error Condition="!Exists('..\..\packages\Nerdbank.GitVersioning.3.8.118\build\Nerdbank.GitVersioning.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Nerdbank.GitVersioning.3.8.118\build\Nerdbank.GitVersioning.targets'))" />
   </Target>
-  <Import Project="..\..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.targets" Condition="Exists('..\..\packages\Nerdbank.GitVersioning.3.7.115\build\Nerdbank.GitVersioning.targets')" />
+  <Import Project="..\..\packages\Nerdbank.GitVersioning.3.8.118\build\Nerdbank.GitVersioning.targets" Condition="Exists('..\..\packages\Nerdbank.GitVersioning.3.8.118\build\Nerdbank.GitVersioning.targets')" />
 </Project>
